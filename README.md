@@ -15,16 +15,16 @@ Hopefully this model could help investors to make decisions of investing the loa
  ## - LendinClub-logestic.ipynb 
 ### •	load data
 ### •	data cleaning     
-####    o	derive response variable,
-####    o	deleting columns with NA >99%,
-####    o	generate new variable 'credit_len',
-####    o	drop columns that happen after default,
-####    o	transform 'int_rate' and 'revol_util' to numerical variable,
-####    o	transform emp_length and grade to numerical variable,
-####    o	dummy categorical variables)
+       o	derive response variable,
+       o	deleting columns with NA >99%,
+       o	generate new variable 'credit_len',
+       o	drop columns that happen after default,
+       o	transform 'int_rate' and 'revol_util' to numerical variable,
+       o	transform emp_length and grade to numerical variable,
+       o	dummy categorical variables)
 ### •	build logistic regression 
-####    o	lasso to select features 
-####    o	Use AUC as performance matrics)
+       o	lasso to select features 
+       o	Use AUC as performance matrics)
 ### •	Data exploration
         
  ## - LoanStats3a.csv (The data contains lending club loan data from 2007 to 2011.)
