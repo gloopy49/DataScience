@@ -1,6 +1,37 @@
+1.Library used in this project:
+    -pandas
+    -numpy
+    -scipy
+    -sklearn
+    -matplotlib
+    -seaborn
+2. Motivation of the project:
+This is a classification task with the aim of predicting which loans will default. 
+Hopefully this model could help investors to make decisions of investing the loans with different risks.
 
-Lending Club is a peer-to-peer lending platform: https://www.lendingclub.com/. They make their data publically available. The repository also contains the input data used in CSV format. The data contains lending club loan data from 2007 to 2011. 
+3.Files in the repository:
+   - licence # BSD 2-Clause License
+   - LendinClub-logestic.ipynb 
+        #load data
+        #data cleaning (including deleting columns with NA >99%, 
+                                   derive response variable,
+                                   generate new variable 'credit_len',
+                                   drop columns that happen after default,
+                                   transform 'int_rate' and 'revol_util' to numerical variable,
+                                   transform emp_length and grade to numerical variable,
+                                   dummy categorical variables)
+        #build logistic regression (#Use lasso to select features #Use AUC as performance matrics)
+        #Data exploration
+        
+   - LoanStats3a.csv #The data contains lending club loan data from 2007 to 2011.
+   - Readme.md
 
-This repository contains a notebook that examine this data and do a logistic regression model on loan default. This is a classification task with the aim of predicting which loans will default.
+4. A summary of the results of the analysis
+  Question1: What is the overall yearly funded amount and return rate?
+   Answer:   The total loan amount issued from LendingClub continued to grow from less than 1M in 2007 to more than 200M in 2011 and the return rate also increased              from about 1% to over 12%.
+  Question2: Are there a significant portion of default loans.
+   Answer:   Yes, from 2007 to 2011, the defalut loans are 15.2% of the total loans.
+  Question3: How to choose low risk of loans to invest?
+             Features like low interes loans and 36-month term loans have lower risk of default.
+             
 
-The notebook also includes some data exploration, viualization and feature engineering.
