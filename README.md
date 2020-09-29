@@ -5,6 +5,7 @@
     -sklearn
     -matplotlib
     -seaborn
+
 2.Motivation of the project:
 This is a classification task with the aim of predicting which loans will default. 
 Hopefully this model could help investors to make decisions of investing the loans with different risks.
