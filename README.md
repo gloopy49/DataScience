@@ -1,4 +1,4 @@
-1.Library used in this project:
+1. Library used in this project:
     -pandas
     -numpy
     -scipy
@@ -12,26 +12,29 @@ Hopefully this model could help investors to make decisions of investing the loa
 3.Files in the repository:
    - licence # BSD 2-Clause License
    - LendinClub-logestic.ipynb 
-        #load data
-        #data cleaning (including deleting columns with NA >99%, 
-                                   derive response variable,
-                                   generate new variable 'credit_len',
-                                   drop columns that happen after default,
-                                   transform 'int_rate' and 'revol_util' to numerical variable,
-                                   transform emp_length and grade to numerical variable,
-                                   dummy categorical variables)
-        #build logistic regression (#Use lasso to select features #Use AUC as performance matrics)
-        #Data exploration
+•	load data
+•	data cleaning     
+o	derive response variable,
+o	deleting columns with NA >99%,
+o	generate new variable 'credit_len',
+o	drop columns that happen after default,
+o	transform 'int_rate' and 'revol_util' to numerical variable,
+o	transform emp_length and grade to numerical variable,
+o	dummy categorical variables)
+•	build logistic regression 
+o	lasso to select features 
+o	Use AUC as performance matrics)
+•	Data exploration
         
-   - LoanStats3a.csv #The data contains lending club loan data from 2007 to 2011.
+   - LoanStats3a.csv (The data contains lending club loan data from 2007 to 2011.)
    - Readme.md
 
 4. A summary of the results of the analysis
-  Question1: What is the overall yearly funded amount and return rate?
-   Answer:   The total loan amount issued from LendingClub continued to grow from less than 1M in 2007 to more than 200M in 2011 and the return rate also increased              from about 1% to over 12%.
-  Question2: Are there a significant portion of default loans.
+Question1: What is the overall yearly funded amount and return rate?
+   Answer:   The total loan amount issued from LendingClub continued to grow from less than 1M in 2007 to more than 200M in 2011 and the return rate also increased from about 1% to over 12%.
+  
+Question2: Are there a significant portion of default loans.
    Answer:   Yes, from 2007 to 2011, the defalut loans are 15.2% of the total loans.
-  Question3: How to choose low risk of loans to invest?
+  
+Question3: How to choose low risk of loans to invest?
              Features like low interes loans and 36-month term loans have lower risk of default.
-             
-
