@@ -42,3 +42,9 @@ This visualization results were published using [Media](https://medium.com/@biof
 
 ## Question3: How to choose low risk of loans to invest?
    Answer: Features like low interes loans and 36-month term loans have lower risk of default.
+   
+ # 5. Acknowledgement
+   ## 1) I learned some visualization codes from this kaggle post here:
+      https://www.kaggle.com/janiobachmann/lending-club-risk-analysis-and-metrics
+   ## 2) Some column knowledge and concepts are learned from the below github post.
+      https://github.com/harrinac/lending_club_analysis
