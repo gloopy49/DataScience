@@ -17,11 +17,12 @@ Hopefully this model could help investors to make decisions of investing the loa
 ### •	data cleaning     
        o	derive response variable,
        o	deleting columns with NA >99%,
+       o  generate column_Null feature for column in ['mths_since_last_delinq','revol_util','collections_12_mths_ex_med','chargeoff_within_12_mths','pub_rec_bankruptcies']    
        o	generate new variable 'credit_len',
        o	drop columns that happen after default,
        o	transform 'int_rate' and 'revol_util' to numerical variable,
        o	transform emp_length and grade to numerical variable,
-       o	dummy categorical variables)
+       o	dummy categorical variables
 ### •	build logistic regression 
        o	lasso to select features 
        o	Use AUC as performance matrics)
@@ -37,7 +38,7 @@ This visualization results were published using [Media](https://medium.com/@biof
 ## Question1: What is the overall yearly funded amount and return rate?
    Answer:   The total loan amount issued from LendingClub continued to grow from less than 1M in 2007 to more than 200M in 2011 and the return rate also increased from about 1% to over 12%.
   
-## Question2: Are there a significant portion of default loans.
+## Question2: Are there a significant portion of default loans?
    Answer:   Yes, from 2007 to 2011, the defalut loans are 15.2% of the total loans.
 
 ## Question3: How to choose low risk of loans to invest?
