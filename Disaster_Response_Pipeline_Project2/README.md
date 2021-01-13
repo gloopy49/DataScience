@@ -62,6 +62,9 @@ The web app will also display visualizations of the data.
 
 Information can be seen on the main app page: 
 ![alt text](https://github.com/gloopy49/DataScience/blob/master/Disaster_Response_Pipeline_Project2/images/flask_web_app.png?raw=true)
+![alt text](https://github.com/gloopy49/DataScience/blob/master/Disaster_Response_Pipeline_Project2/images/overview_train.png?raw=true)
+
+![alt text](https://github.com/gloopy49/DataScience/blob/master/Disaster_Response_Pipeline_Project2/images/Top15_message_category.png?raw=true)
 
 # 5. Files included:
 ## 1. data
