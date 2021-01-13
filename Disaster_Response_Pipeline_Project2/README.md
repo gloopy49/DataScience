@@ -1,4 +1,4 @@
-#Disaster Response Pipeline Project
+# Disaster Response Pipeline Project
 ## Data Scientist Nanodegree
 ## Data Engineering
 
@@ -61,7 +61,7 @@ The web app will also display visualizations of the data.
 # 4. Some screen shots from the web app
 
 Information can be seen on the main app page: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://https://github.com/gloopy49/DataScience/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 # 5. Files included:
 ##1. data
