@@ -64,15 +64,15 @@ Information can be seen on the main app page:
 ![alt text](https://https://github.com/gloopy49/DataScience/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 # 5. Files included:
-##1. data
+## 1. data
 ..* disaster_categories.csv: dataset contains categories
 ..* disaster_messages.csv: dataset contains messages
 ..* process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database
 ..* DisasterResponse.db: SQLite database containing processed messages and categories data
-##2. models
+## 2. models
 ..* train_classifier.py: machine learning pipeline scripts to build, train, and save a model
 ..* classifier.pkl: exported model in pkl format
-##3. app
+## 3. app
 ..* run.py: Python script to integrate all above files and to start the web application
 ..* templates contains html file for the web applicatin
 
