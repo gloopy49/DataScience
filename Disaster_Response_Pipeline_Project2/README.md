@@ -65,16 +65,16 @@ Information can be seen on the main app page:
 
 # 5. Files included:
 ## 1. data
-..* disaster_categories.csv: dataset contains categories
-..* disaster_messages.csv: dataset contains messages
-..* process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database
-..* DisasterResponse.db: SQLite database containing processed messages and categories data
+    1) disaster_categories.csv: dataset contains categories
+    2) disaster_messages.csv: dataset contains messages
+    3) process_data.py: ETL pipeline scripts to load, clean, merge and store data into a database
+    4) DisasterResponse.db: SQLite database containing processed messages and categories data
 ## 2. models
-..* train_classifier.py: machine learning pipeline scripts to build, train, and save a model
-..* classifier.pkl: exported model in pkl format
+    1) train_classifier.py: machine learning pipeline scripts to build, train, and save a model
+    2) classifier.pkl: exported model in pkl format
 ## 3. app
-..* run.py: Python script to integrate all above files and to start the web application
-..* templates contains html file for the web applicatin
+    1) run.py: Python script to integrate all above files and to start the web application
+    2) templates contains html file for the web applicatin
 
    
 # 6. Acknowledgement
