@@ -61,7 +61,7 @@ The web app will also display visualizations of the data.
 # 4. Some screen shots from the web app
 
 Information can be seen on the main app page: 
-![alt text](https://github.com/gloopy49/DataScience/Disaster_Response_Pipeline_Project2/images/flask_web_app.png "Flask web app")
+![alt text](https://github.com/gloopy49/DataScience/tree/master/Disaster_Response_Pipeline_Project2/images/flask_web_app)
 
 # 5. Files included:
 ## 1. data
