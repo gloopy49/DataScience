@@ -14,8 +14,8 @@
 # 2.Project overview:
 Starbucks frequently provides offers to its customers through its rewards mobile app to drive more sales. These offers can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). This project focuses on tailoring the promotional offers for customers based on their responses to the previous offers and predict the response of a customer to an offer, meaning whether or not the customer would either complete an discount or bogo offer or the customer would have a transaction after viewing an informational offer.
 
-- First, combining transaction, demographic and offer data.
-- Second, Label the received offers with completed for discount or bogo offers and effective for informational offers.
+- #### First, combining transaction, demographic and offer data.
+- #### Second, Label the received offers with completed for discount or bogo offers and effective for informational offers.
         For discount or bogo offers, the offer journey could be:
                   1) offer received-transaction-offer completed
                   2) offer received-offer reviewed-transaction
@@ -33,9 +33,9 @@ Starbucks frequently provides offers to its customers through its rewards mobile
                   5) offer received-offer reviewed-transaction within valid time
          Only the scenario 6 could be labelled as effective offer for the informational offers.
 
- - Third, to determine which demographic groups respond best to which offer type. Exploratory Data Analysis(EDA) is performed to find the customer group.
+ - #### Third, to determine which demographic groups respond best to which offer type. Exploratory Data Analysis(EDA) is performed to find the customer group.
 
- - Last, two machine learning models (one for discount and bogo offers, the other one for informational offers) are built to predict the customer’s response to an offer so that Starbucks can properly target who they send their offers to.
+ - #### Last, two machine learning models (one for discount and bogo offers, the other one for informational offers) are built to predict the customer’s response to an offer so that Starbucks can properly target who they send their offers to.
 
 
 # 3.Datasets and Inputs:
@@ -76,12 +76,12 @@ https://dsfjm.medium.com/data-science-help-optimize-starbucks-promotion-strategy
 
 
 # 5.Files included:
-##1. data
+## 1. data
     - portfolio.json
     - profile.json
     - transcript.json
-##2. scripts
-..* Starbucks_Capstone_notebook.ipynb
+## 2. scripts
+Starbucks_Capstone_notebook.ipynb
 
    
 # 6.Acknowledgement
