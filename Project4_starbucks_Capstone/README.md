@@ -1,4 +1,4 @@
-#Starbucks Capstone Project
+# Starbucks Capstone Project
 ## Data Scientist Nanodegree
 
 # 1.Library used in this project:
